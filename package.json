@@ -1,0 +1,29 @@
+{
+  "name": "JS-API-Testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000",
+    "test-html": "mocha --timeout 5000 --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/register": "^7.13.16",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "supertest": "^6.1.3"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3"
+  }
+}
